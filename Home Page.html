@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+ /*Navbar */
+    nav {
+  background-color: #417ac4fe;
+  color: #fff;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.navbar-container a img {
+    height: 10%;
+    width: 10%;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-menu li  {
+  
+  font-size: 20px;
+  padding: 10px 20px;
+  
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 10px;
+  background-color: #8acc67;
+
+}
+
+.navbar-menu li a:hover {
+  color: #000000;
+  background-color: #8acc67;
+  padding: 7px 8px;
+}
+
+/*navbar End */
+
+/*Section Start*/
+
+.main {
+   
+    
+    display:grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 2fr 2fr 1fr;
+    padding: 40px 20px;
+    height: 600px;
+    margin: 50px 50px 50px 50px;
+}
+
+.main div{
+  border: 4px solid rgb(15, 133, 8);
+  background-color:#a6dd409c;
+  text-align:justify;
+  border-radius: 30px;
+  
+  
+}
+.d3{
+  grid-column: 3 / span 4;
+  grid-row: 1 / span 2;
+}
+.d4{
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+  border-style:dashed;
+  text-align: center;
+ 
+}
+.d4 table{
+  border-collapse: collapse;
+  border: 3px solid black;
+  width: 90%;
+  background-color: antiquewhite;
+  text-align: center;
+}
+.div1{
+  text-align: center;
+}
+/*Section End */
+
+
+/* Footer Start */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  width: 30%;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.footer-column p {
+  font-size: 14px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.icon img{
+  height: 8%;
+  width: 8%;
+  padding: 10px 10px;
+}
+
+/* Footer End */
+
+
+  </style>
+</head>
+<!--Navbar Start-->
+<body>
+  <nav>
+    <div class="navbar-container">
+      <a class="logo" href="#">  <img src="logo.png">   </a>
+      <ul class="navbar-menu">
+        <li><a href="#" style="background-color: aqua; color: Black; padding: 10px;">Home</a></li>
+        <li><a href="About Us.html" target="_blank">About Us</a></li>
+        <li><a href="Services.html" target="_blank">Services</a></li>
+        <li><a href="gallery.html" target="_blank">Gallery</a></li>
+        <li><a href="Login Page.html" target="_blank">Log In</a></li>
+      </ul>
+    </div>
+  </nav>
+<!--Navbar End-->
+ <!--Section Start-->
+  <section>
+    <div class="main">
+        <div class="div1">
+         <h3 style="text-align: center;"> আমাদের লক্ষ</h3>
+         <p>
+          <li style="padding: 5px;">নিরলস জ্ঞান চর্চার মাধ্যমে শিক্ষার্থীদের জন্য মানসম্মত শিক্ষা নিশ্চিত করা ।</li>
+          <li style="padding: 5px;">শিক্ষার্থীদের চিন্তায়, চেতনায় এবং কর্মে সৃজনশীলতা, জনকল্যাণ ও মানব সেবাবোধ জাগ্রত করে তোলা ।</li>
+          <li style="padding: 5px;">শিক্ষার্থীদের মধ্যে প্রয়োজনীয় অনুশীলন ও প্রশিক্ষণের মাধ্যমে শৃঙ্খলাবোধ, শ্রমের মর্যাদা, নৈতিক ও চারিত্রিক গুনাবলি উম্মেষ ঘটানো ।</li>
+         </p=>
+        </div>
+
+        <div>
+          <h3 style="text-align: center;">আমাদের সম্পর্কে</h3>
+          <p style="padding: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque nesciunt saepe pariatur cupiditate. Dignissimos nesciunt autem eveniet c fugiat velit, amet animi porro. Eos, distinctio provident eligendi quaerat iusto itaque error iure, natus nobis ad deleniti amet quisquam, illum inventore. Iure eveniet provident hic iusto aperiam. Facere quis delectus nemo corporis, non soluta ratione sapiente laboriosam, laborum eaque neque expedita sunt et est </p>
+        </div>
+        <div class="d3">
+          <h3 style="text-align: center;">স্লাইড বার</h3>
+          <p style="padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.  neque harum. Nihil eaque labore, a cum placeat molestias unde rerum libero accusantium debitis eveniet architecto quasi neque, sapiente ab culpa repudiandae temporibus quis maiores at ratione dolorem magnam velit? Nobis necessitatibus quos dolorum exercitationem saepe. Reiciendis veniam velit aliquam ea minima! A eaque eligendi quam cupiditate. Eligendi aut ut velit voluptate ipsam aliquid eius beatae repellat maxime pariatur cupiditate atque hic sit, eum, aspernatur suscipit iste exercitationem maiores illum cum libero laudantium. Vel, vero! Optio dicta inventore tenetur ipsum illo cumque minima similique odio ullam dolores explicabo, et recusandae consequuntur beatae ipsam sint reiciendis eius rem mollitia?</p>
+        </div>
+        
+        <div class="d4">
+          <h2 style="text-align: center;">নোটিশ বোর্ড</h2>
+      
+          <table border="1px solid black" align="center">
+            <tr>
+              <th>Serial No</th>
+              <th>Notice</th>
+              <th>date</th>
+              <th>Action</th>
+
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Addmition Notise</td>
+              <td>05/07/2023</td>
+              <td><button style="background-color: goldenrod;">View File</button></td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>Holiday Notise</td>
+              <td>09/07/2023</td>
+              <td><button style="background-color: goldenrod;">View File</button></td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>SSC(Voc) & Dakhil(Voc) 2023 Final Routine</td>
+              <td>05/07/2023</td>
+              <td><button style="background-color: goldenrod;">View File</button></td>
+            </tr>
+            <tr>
+              <td>04</td>
+              <td>Modle Test-2023</td>
+              <td>15/05/2023</td>
+              <td><button style="background-color: goldenrod;">View File</button></td>
+            </tr>
+            
+          </table>
+        </div>
+    </div>
+  </section>
+  <!--Section End-->
+  <br><br><br><br><br><br><br><br>
+
+  <!--Footer Start-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mi sed neque ullamcorper, sed sagittis urna hendrerit.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <p>Phone: +123456789<br>
+          Email: info@example.com</p>
+         
+        </div>
+       
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <a href="#"> <img src="Image/Twitter.jpg" alt=""></a>
+            <a href="#"> <img src="Image/skype.png" alt=""> </a>
+             <a href="#"><img src="Image/youtube.png" alt=""></a>
+           </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 My Website. All rights reserved. Developed by Samiul Islam</p>
+      </div>
+    </div>
+  </footer>
+  
+   <!--Footer end-->
+  
+</body>
+</html>

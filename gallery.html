@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+    <style>
+       /*Navbar */
+    nav {
+  background-color: #417ac4fe;
+  color: #fff;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.navbar-container a img {
+    height: 10%;
+    width: 10%;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-menu li  {
+  
+  font-size: 20px;
+  padding: 10px 20px;
+  
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 10px;
+  background-color: #8acc67;
+
+}
+
+.navbar-menu li a:hover {
+  color: #000000;
+  background-color: #8acc67;
+  padding: 7px 8px;
+}
+
+/*navbar End */
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer Start */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  width: 30%;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.footer-column p {
+  font-size: 14px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.icon img{
+  height: 8%;
+  width: 8%;
+  padding: 10px 10px;
+}
+
+/* Footer End */
+    </style>
+    <body>
+        <!--Navbar Start-->
+<nav>
+  <div class="navbar-container">
+    <a class="logo" href="#">  <img src="logo.png">   </a>
+    <ul class="navbar-menu">
+      <li><a href="Home Page.html" target="_blank" style="background-color: aqua; color: Black; padding: 10px;">Home</a></li>
+      <li><a href="About Us.html" target="_blank">About Us</a></li>
+      <li><a href="Services.html" target="_blank">Services</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="Login Page.html" target="_blank">Log In</a></li>
+    </ul>
+  </div>
+</nav><br>
+<!--Navbar End-->
+  <header>
+    <h1 style="text-align: center;" >Gallery</h1>
+  </header>
+  
+  <main>
+    <div class="gallery">
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpg" alt="Image 2">
+      <img src="image3.jpg" alt="Image 3">
+      <img src="image4.jpg" alt="Image 4">
+      <img src="image5.jpg" alt="Image 5">
+      <img src="image6.jpg" alt="Image 6">
+      <img src="image6.jpg" alt="Image 7">
+      <img src="image6.jpg" alt="Image 8">
+      <img src="image6.jpg" alt="Image 9">
+      <img src="image6.jpg" alt="Image 11">
+      <img src="image6.jpg" alt="Image 12">
+      <img src="image6.jpg" alt="Image 13">
+      <img src="image6.jpg" alt="Image 14">
+      <img src="image6.jpg" alt="Image 15">
+      <img src="image6.jpg" alt="Image 16">
+      <img src="image6.jpg" alt="Image 17">
+      <img src="image6.jpg" alt="Image 18">
+      <img src="image6.jpg" alt="Image 19">
+      <img src="image6.jpg" alt="Image 20">
+      <img src="image6.jpg" alt="Image 21">
+      <img src="image6.jpg" alt="Image 22">
+      <img src="image6.jpg" alt="Image 23">
+      <img src="image6.jpg" alt="Image 24">
+      <img src="image6.jpg" alt="Image 25">
+    </div>
+  </main>
+  <br><br><br><br><br><br><br><br><br>
+    <!--Footer Start-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mi sed neque ullamcorper, sed sagittis urna hendrerit.</p>
+          </div>
+          <div class="footer-column">
+            <h4>Contact</h4>
+            <p>Phone: +123456789<br>
+            Email: info@example.com</p>
+           
+          </div>
+         
+          <div class="footer-column">
+            <h4>Follow Us</h4>
+            <div class="icon">
+              <a href="#"> <img src="Image/Twitter.jpg" alt=""></a>
+              <a href="#"> <img src="Image/skype.png" alt=""> </a>
+               <a href="#"><img src="Image/youtube.png" alt=""></a>
+             </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 My Website. All rights reserved. Developed by Samiul Islam</p>
+        </div>
+      </div>
+    </footer>
+    
+     <!--Footer end-->
+</body>
+</html>
